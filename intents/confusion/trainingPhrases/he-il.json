@@ -1,0 +1,14 @@
+[
+  {"id": "cf-001", "parts": [{"text": "מי זה"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "cf-002", "parts": [{"text": "מי אתה"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "cf-003", "parts": [{"text": "על מה מדובר"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "cf-004", "parts": [{"text": "לא הבנתי"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "cf-005", "parts": [{"text": "במה מדובר"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "cf-006", "parts": [{"text": "מה זה"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "cf-007", "parts": [{"text": "תזכיר לי"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "cf-008", "parts": [{"text": "לא זוכר"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "cf-009", "parts": [{"text": "לא זוכרת"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "cf-010", "parts": [{"text": "מי את"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "cf-011", "parts": [{"text": "לגבי מה"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "cf-012", "parts": [{"text": "מי אתם"}], "repeatCount": 1, "languageCode": "he-il"}
+]

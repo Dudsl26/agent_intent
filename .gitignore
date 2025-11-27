@@ -1,0 +1,40 @@
+# Environment variables
+.env
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Test results
+tests/test-results.json
+
+# Logs
+*.log
+logs/
+
+# Cloud Functions
+.gcloudignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build outputs
+dist/
+build/
+
+# Credentials
+*-credentials.json
+service-account.json

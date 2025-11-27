@@ -1,0 +1,11 @@
+{
+  "name": "confusion",
+  "displayName": "confusion",
+  "priority": 500000,
+  "labels": {
+    "category": "clarification",
+    "interest_level": "unknown",
+    "needs_reintroduction": "true"
+  },
+  "description": "User is confused about who contacted them or what the project is"
+}

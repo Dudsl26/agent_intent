@@ -1,0 +1,283 @@
+{
+  "testCases": [
+    {
+      "id": "TC001",
+      "name": "Interested Intent - Positive Response",
+      "input": "כן אשמח לשמוע",
+      "expectedIntent": "interested",
+      "expectedParameters": {
+        "interest_level": "high",
+        "initial_response": "interested"
+      },
+      "expectedResponseContains": ["מעולה", "פרטים על הפרויקט"],
+      "priority": "high"
+    },
+    {
+      "id": "TC002",
+      "name": "Request Price Intent",
+      "input": "כמה זה עולה?",
+      "expectedIntent": "request_price",
+      "expectedParameters": {
+        "interest_level": "medium",
+        "price_sensitivity": "high",
+        "initial_question": "price"
+      },
+      "expectedResponseContains": ["המחירים", "חדרים"],
+      "priority": "high"
+    },
+    {
+      "id": "TC003",
+      "name": "Not Interested Intent",
+      "input": "לא תודה",
+      "expectedIntent": "not_interested",
+      "expectedParameters": {
+        "interest_level": "none",
+        "lead_status": "cold"
+      },
+      "expectedResponseContains": ["אין בעיה", "בהצלחה"],
+      "priority": "high"
+    },
+    {
+      "id": "TC004",
+      "name": "Confusion Intent",
+      "input": "מי זה?",
+      "expectedIntent": "confusion",
+      "expectedParameters": {
+        "interest_level": "unknown",
+        "needs_reintroduction": true
+      },
+      "expectedResponseContains": ["סליחה", "משווקים פרויקט"],
+      "priority": "medium"
+    },
+    {
+      "id": "TC005",
+      "name": "Request Location Intent",
+      "input": "איפה זה?",
+      "expectedIntent": "request_location",
+      "expectedParameters": {
+        "interest_level": "medium",
+        "location_important": true,
+        "initial_question": "location"
+      },
+      "expectedResponseContains": ["הפרויקט נמצא", "מיקום"],
+      "priority": "high"
+    },
+    {
+      "id": "TC006",
+      "name": "Request Details Intent",
+      "input": "אשמח לפרטים",
+      "expectedIntent": "request_details",
+      "expectedParameters": {
+        "interest_level": "medium-high",
+        "initial_question": "details",
+        "wants_catalog": true
+      },
+      "expectedResponseContains": ["בטח", "הפרויקט שלנו כולל"],
+      "priority": "high"
+    },
+    {
+      "id": "TC007",
+      "name": "Request Specs Intent",
+      "input": "יש ממד?",
+      "expectedIntent": "request_specs",
+      "expectedParameters": {
+        "interest_level": "high",
+        "detail_oriented": true,
+        "initial_question": "specs"
+      },
+      "expectedResponseContains": ["המפרט", "ממ״ד"],
+      "priority": "medium"
+    },
+    {
+      "id": "TC008",
+      "name": "Timing Question Intent",
+      "input": "מתי כניסה?",
+      "expectedIntent": "timing_question",
+      "expectedParameters": {
+        "interest_level": "medium-high",
+        "timing_important": true,
+        "initial_question": "timing"
+      },
+      "expectedResponseContains": ["הכניסה המתוכננת", "תאריך"],
+      "priority": "medium"
+    },
+    {
+      "id": "TC009",
+      "name": "Not Now Intent",
+      "input": "לא עכשיו",
+      "expectedIntent": "not_now",
+      "expectedParameters": {
+        "interest_level": "low",
+        "follow_up_needed": true
+      },
+      "expectedResponseContains": ["מובן", "אחזור אליך"],
+      "priority": "medium"
+    },
+    {
+      "id": "TC010",
+      "name": "Already Purchased Intent",
+      "input": "כבר קניתי",
+      "expectedIntent": "already_purchased",
+      "expectedParameters": {
+        "interest_level": "none",
+        "lead_status": "converted_elsewhere",
+        "potential_referral": true
+      },
+      "expectedResponseContains": ["מזל טוב", "בהצלחה"],
+      "priority": "low"
+    },
+    {
+      "id": "TC011",
+      "name": "Greeting Only - Should trigger welcome",
+      "input": "שלום",
+      "expectedIntent": "Default Welcome Intent",
+      "expectedParameters": {},
+      "expectedResponseContains": ["היי", "מה שלומך"],
+      "priority": "medium"
+    },
+    {
+      "id": "TC012",
+      "name": "Multiple interests - Price variation",
+      "input": "מחיר",
+      "expectedIntent": "request_price",
+      "expectedParameters": {
+        "interest_level": "medium",
+        "price_sensitivity": "high"
+      },
+      "expectedResponseContains": ["מחיר"],
+      "priority": "high"
+    },
+    {
+      "id": "TC013",
+      "name": "Interest variation - מעוניין",
+      "input": "מעוניין",
+      "expectedIntent": "interested",
+      "expectedParameters": {
+        "interest_level": "high"
+      },
+      "expectedResponseContains": ["מעולה"],
+      "priority": "high"
+    },
+    {
+      "id": "TC014",
+      "name": "Location variation - מיקום",
+      "input": "מיקום",
+      "expectedIntent": "request_location",
+      "expectedParameters": {
+        "location_important": true
+      },
+      "expectedResponseContains": ["מיקום"],
+      "priority": "medium"
+    },
+    {
+      "id": "TC015",
+      "name": "Specs question - גודל",
+      "input": "גודל הדירה",
+      "expectedIntent": "request_specs",
+      "expectedParameters": {
+        "detail_oriented": true
+      },
+      "expectedResponseContains": ["דירה"],
+      "priority": "medium"
+    },
+    {
+      "id": "TC016",
+      "name": "Fallback - Random text",
+      "input": "אני אוכל פיצה",
+      "expectedIntent": "sys.no-match-default",
+      "expectedParameters": {},
+      "expectedResponseContains": ["לא הבנתי", "הפרויקט"],
+      "priority": "low"
+    },
+    {
+      "id": "TC017",
+      "name": "Multi-word price question",
+      "input": "מה המחיר של דירה?",
+      "expectedIntent": "request_price",
+      "expectedParameters": {
+        "price_sensitivity": "high"
+      },
+      "expectedResponseContains": ["מחיר"],
+      "priority": "medium"
+    },
+    {
+      "id": "TC018",
+      "name": "Details request variation",
+      "input": "תשלח פרטים",
+      "expectedIntent": "request_details",
+      "expectedParameters": {
+        "wants_catalog": true
+      },
+      "expectedResponseContains": ["פרטים"],
+      "priority": "medium"
+    }
+  ],
+  "conversationFlows": [
+    {
+      "id": "FLOW001",
+      "name": "High Interest Lead Flow",
+      "steps": [
+        {
+          "step": 1,
+          "userInput": "כן אשמח לשמוע",
+          "expectedIntent": "interested",
+          "expectedInterestLevel": "high"
+        },
+        {
+          "step": 2,
+          "userInput": "מה המחיר של 4 חדרים?",
+          "expectedIntent": "request_price",
+          "shouldTriggerPlaybookHandoff": false
+        },
+        {
+          "step": 3,
+          "userInput": "מתי כניסה?",
+          "expectedIntent": "timing_question",
+          "shouldTriggerPlaybookHandoff": true,
+          "reason": "3 messages exchanged with high interest"
+        }
+      ]
+    },
+    {
+      "id": "FLOW002",
+      "name": "Price Sensitive Lead Flow",
+      "steps": [
+        {
+          "step": 1,
+          "userInput": "כמה זה עולה?",
+          "expectedIntent": "request_price",
+          "expectedInterestLevel": "medium"
+        },
+        {
+          "step": 2,
+          "userInput": "זה יקר מדי",
+          "expectedIntent": "sys.no-match-default",
+          "shouldHandleGracefully": true
+        }
+      ]
+    },
+    {
+      "id": "FLOW003",
+      "name": "Confused Lead Flow",
+      "steps": [
+        {
+          "step": 1,
+          "userInput": "מי זה?",
+          "expectedIntent": "confusion",
+          "expectedNeedsReintroduction": true
+        },
+        {
+          "step": 2,
+          "userInput": "אה כן זוכר",
+          "expectedIntent": "sys.no-match-default"
+        },
+        {
+          "step": 3,
+          "userInput": "אשמח לשמוע",
+          "expectedIntent": "interested",
+          "expectedInterestLevel": "high"
+        }
+      ]
+    }
+  ]
+}
