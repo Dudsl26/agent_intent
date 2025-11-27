@@ -24,9 +24,12 @@ agent_intent/
 │   ├── confusion/
 │   ├── request_specs/
 │   └── timing_question/
-└── flows/                  # 2 flow definitions
-    ├── Default Start Flow/
-    └── Lead Qualification Flow/
+├── flows/                  # 2 flow definitions
+│   ├── Default Start Flow/
+│   └── Lead Qualification Flow/
+└── playbooks/              # Dialogflow CX Playbooks
+    ├── keidar-real-estate-playbook.yaml
+    └── README.md
 ```
 
 ## Features
@@ -35,6 +38,7 @@ agent_intent/
 - **130+ Training Phrases** in Hebrew (he-il)
 - **2 Flows** with routing and event handlers
 - **18 Session Parameters** for lead tracking
+- **Playbook** with comprehensive knowledge base for Keidar real estate
 - **WhatsApp Integration** ready
 
 ## How to Import This Agent
