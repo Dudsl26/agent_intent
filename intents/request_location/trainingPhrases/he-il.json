@@ -1,13 +1,91 @@
-[
-  {"id": "rl-001", "parts": [{"text": "איפה זה"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rl-002", "parts": [{"text": "איפה"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rl-003", "parts": [{"text": "היכן"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rl-004", "parts": [{"text": "מיקום"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rl-005", "parts": [{"text": "באיזה אזור"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rl-006", "parts": [{"text": "איזה עיר"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rl-007", "parts": [{"text": "איפה הפרויקט"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rl-008", "parts": [{"text": "היכן הפרויקט"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rl-009", "parts": [{"text": "על איזה פרויקט מדובר"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rl-010", "parts": [{"text": "איזה יישוב"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rl-011", "parts": [{"text": "זה איפה"}], "repeatCount": 1, "languageCode": "he-il"}
-]
+{
+  "trainingPhrases": [ {
+    "id": "rl-001",
+    "parts": [ {
+      "text": "איפה זה",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rl-002",
+    "parts": [ {
+      "text": "איפה",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rl-003",
+    "parts": [ {
+      "text": "היכן",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rl-004",
+    "parts": [ {
+      "text": "מיקום",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rl-005",
+    "parts": [ {
+      "text": "באיזה אזור",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rl-006",
+    "parts": [ {
+      "text": "איזה עיר",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rl-007",
+    "parts": [ {
+      "text": "איפה הפרויקט",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rl-008",
+    "parts": [ {
+      "text": "היכן הפרויקט",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rl-009",
+    "parts": [ {
+      "text": "על איזה פרויקט מדובר",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rl-010",
+    "parts": [ {
+      "text": "איזה יישוב",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rl-011",
+    "parts": [ {
+      "text": "זה איפה",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  } ]
+}
