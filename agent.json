@@ -1,0 +1,12 @@
+{
+  "displayName": "test_for_intents",
+  "defaultLanguageCode": "he-il",
+  "timeZone": "Asia/Yekaterinburg",
+  "projectNumber": 939932743275,
+  "startFlow": "Default Start Flow",
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  }
+}
