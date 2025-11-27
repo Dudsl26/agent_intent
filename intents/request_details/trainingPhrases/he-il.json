@@ -1,136 +1,99 @@
 {
-  "trainingPhrases": [
-    {
-      "id": "rd-001",
-      "parts": [
-        {
-          "text": "אשמח לפרטים",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "rd-002",
-      "parts": [
-        {
-          "text": "תשלח פרטים",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "rd-003",
-      "parts": [
-        {
-          "text": "פרטים",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "rd-004",
-      "parts": [
-        {
-          "text": "ספר לי",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "rd-005",
-      "parts": [
-        {
-          "text": "תפרט",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "rd-006",
-      "parts": [
-        {
-          "text": "מה הפרטים",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "rd-007",
-      "parts": [
-        {
-          "text": "אשמח לשמוע פרטים",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "rd-008",
-      "parts": [
-        {
-          "text": "שלח פרטים בבקשה",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "rd-009",
-      "parts": [
-        {
-          "text": "תן פרטים",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "rd-010",
-      "parts": [
-        {
-          "text": "אפשר פרטים",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "rd-011",
-      "parts": [
-        {
-          "text": "תעביר פרטים",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "rd-012",
-      "parts": [
-        {
-          "text": "תשלח תוכניות",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    }
-  ]
+  "trainingPhrases": [ {
+    "id": "rd-001",
+    "parts": [ {
+      "text": "אשמח לפרטים",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rd-002",
+    "parts": [ {
+      "text": "תשלח פרטים",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rd-003",
+    "parts": [ {
+      "text": "פרטים",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rd-004",
+    "parts": [ {
+      "text": "ספר לי",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rd-005",
+    "parts": [ {
+      "text": "תפרט",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rd-006",
+    "parts": [ {
+      "text": "מה הפרטים",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rd-007",
+    "parts": [ {
+      "text": "אשמח לשמוע פרטים",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rd-008",
+    "parts": [ {
+      "text": "שלח פרטים בבקשה",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rd-009",
+    "parts": [ {
+      "text": "תן פרטים",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rd-010",
+    "parts": [ {
+      "text": "אפשר פרטים",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rd-011",
+    "parts": [ {
+      "text": "תעביר פרטים",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "rd-012",
+    "parts": [ {
+      "text": "תשלח תוכניות",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  } ]
 }

@@ -1,224 +1,163 @@
 {
-  "trainingPhrases": [
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345001",
-      "parts": [
-        {
-          "text": "כן",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345002",
-      "parts": [
-        {
-          "text": "מעוניין",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345003",
-      "parts": [
-        {
-          "text": "מעוניינת",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345004",
-      "parts": [
-        {
-          "text": "אשמח לשמוע",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345005",
-      "parts": [
-        {
-          "text": "אשמח",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345006",
-      "parts": [
-        {
-          "text": "כן בבקשה",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345007",
-      "parts": [
-        {
-          "text": "בשמחה",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345008",
-      "parts": [
-        {
-          "text": "נשמע מעניין",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345009",
-      "parts": [
-        {
-          "text": "מעניין",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345010",
-      "parts": [
-        {
-          "text": "אפשר",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345011",
-      "parts": [
-        {
-          "text": "כן תודה",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345012",
-      "parts": [
-        {
-          "text": "בהחלט",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345013",
-      "parts": [
-        {
-          "text": "רלוונטי",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345014",
-      "parts": [
-        {
-          "text": "נשמח לשמוע פרטים",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345015",
-      "parts": [
-        {
-          "text": "אשמח לפרטים",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345016",
-      "parts": [
-        {
-          "text": "מעניין מאוד",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345017",
-      "parts": [
-        {
-          "text": "מעוניין לשמוע",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345018",
-      "parts": [
-        {
-          "text": "אשמח לדבר",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345019",
-      "parts": [
-        {
-          "text": "מעולה",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "c2f4e1a8-1234-5678-9abc-def012345020",
-      "parts": [
-        {
-          "text": "זה מעניין",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    }
-  ]
+  "trainingPhrases": [ {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345001",
+    "parts": [ {
+      "text": "כן",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345002",
+    "parts": [ {
+      "text": "מעוניין",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345003",
+    "parts": [ {
+      "text": "מעוניינת",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345004",
+    "parts": [ {
+      "text": "אשמח לשמוע",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345005",
+    "parts": [ {
+      "text": "אשמח",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345006",
+    "parts": [ {
+      "text": "כן בבקשה",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345007",
+    "parts": [ {
+      "text": "בשמחה",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345008",
+    "parts": [ {
+      "text": "נשמע מעניין",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345009",
+    "parts": [ {
+      "text": "מעניין",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345010",
+    "parts": [ {
+      "text": "אפשר",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345011",
+    "parts": [ {
+      "text": "כן תודה",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345012",
+    "parts": [ {
+      "text": "בהחלט",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345013",
+    "parts": [ {
+      "text": "רלוונטי",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345014",
+    "parts": [ {
+      "text": "נשמח לשמוע פרטים",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345015",
+    "parts": [ {
+      "text": "אשמח לפרטים",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345016",
+    "parts": [ {
+      "text": "מעניין מאוד",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345017",
+    "parts": [ {
+      "text": "מעוניין לשמוע",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345018",
+    "parts": [ {
+      "text": "אשמח לדבר",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345019",
+    "parts": [ {
+      "text": "מעולה",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345020",
+    "parts": [ {
+      "text": "זה מעניין",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  } ]
 }

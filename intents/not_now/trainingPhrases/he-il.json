@@ -1,114 +1,83 @@
 {
-  "trainingPhrases": [
-    {
-      "id": "nn-001",
-      "parts": [
-        {
-          "text": "לא עכשיו",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "nn-002",
-      "parts": [
-        {
-          "text": "כרגע לא",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "nn-003",
-      "parts": [
-        {
-          "text": "בעתיד אולי",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "nn-004",
-      "parts": [
-        {
-          "text": "לא בקרוב",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "nn-005",
-      "parts": [
-        {
-          "text": "אעדכן בהמשך",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "nn-006",
-      "parts": [
-        {
-          "text": "נחשוב",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "nn-007",
-      "parts": [
-        {
-          "text": "צריך לחשוב",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "nn-008",
-      "parts": [
-        {
-          "text": "לא בטוח",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "nn-009",
-      "parts": [
-        {
-          "text": "נשוב אליך",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    },
-    {
-      "id": "nn-010",
-      "parts": [
-        {
-          "text": "אחזור אליך",
-          "auto": true
-        }
-      ],
-      "repeatCount": 1,
-      "languageCode": "he-il"
-    }
-  ]
+  "trainingPhrases": [ {
+    "id": "nn-001",
+    "parts": [ {
+      "text": "לא עכשיו",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "nn-002",
+    "parts": [ {
+      "text": "כרגע לא",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "nn-003",
+    "parts": [ {
+      "text": "בעתיד אולי",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "nn-004",
+    "parts": [ {
+      "text": "לא בקרוב",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "nn-005",
+    "parts": [ {
+      "text": "אעדכן בהמשך",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "nn-006",
+    "parts": [ {
+      "text": "נחשוב",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "nn-007",
+    "parts": [ {
+      "text": "צריך לחשוב",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "nn-008",
+    "parts": [ {
+      "text": "לא בטוח",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "nn-009",
+    "parts": [ {
+      "text": "נשוב אליך",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }, {
+    "id": "nn-010",
+    "parts": [ {
+      "text": "אחזור אליך",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  } ]
 }
