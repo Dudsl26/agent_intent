@@ -1,9 +1,81 @@
-[
-  {"id": "tq-001", "parts": [{"text": "מתי כניסה"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "tq-002", "parts": [{"text": "מתי איכלוס"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "tq-003", "parts": [{"text": "מתי מסירה"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "tq-004", "parts": [{"text": "מתי אפשר לעבור"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "tq-005", "parts": [{"text": "מתי הצפי"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "tq-006", "parts": [{"text": "מתי ניתן לראות"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "tq-007", "parts": [{"text": "מה הצפי למסירה"}], "repeatCount": 1, "languageCode": "he-il"}
-]
+{
+  "trainingPhrases": [
+    {
+      "id": "tq-001",
+      "parts": [
+        {
+          "text": "מתי כניסה",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "tq-002",
+      "parts": [
+        {
+          "text": "מתי איכלוס",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "tq-003",
+      "parts": [
+        {
+          "text": "מתי מסירה",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "tq-004",
+      "parts": [
+        {
+          "text": "מתי אפשר לעבור",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "tq-005",
+      "parts": [
+        {
+          "text": "מתי הצפי",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "tq-006",
+      "parts": [
+        {
+          "text": "מתי ניתן לראות",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "tq-007",
+      "parts": [
+        {
+          "text": "מה הצפי למסירה",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    }
+  ]
+}

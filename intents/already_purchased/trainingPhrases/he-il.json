@@ -1,9 +1,11 @@
-[
-  {"id": "ap-001", "parts": [{"text": "כבר קניתי"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ap-002", "parts": [{"text": "כבר קנינו"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ap-003", "parts": [{"text": "רכשנו כבר"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ap-004", "parts": [{"text": "ביצענו עסקה"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ap-005", "parts": [{"text": "יש לי בית"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ap-006", "parts": [{"text": "עברנו דירה"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ap-007", "parts": [{"text": "קנינו במקום אחר"}], "repeatCount": 1, "languageCode": "he-il"}
-]
+{
+  "trainingPhrases": [
+    {"id": "ap-001", "parts": [{"text": "כבר קניתי", "auto": true}], "repeatCount": 1, "languageCode": "he-il"},
+    {"id": "ap-002", "parts": [{"text": "כבר קנינו", "auto": true}], "repeatCount": 1, "languageCode": "he-il"},
+    {"id": "ap-003", "parts": [{"text": "רכשנו כבר", "auto": true}], "repeatCount": 1, "languageCode": "he-il"},
+    {"id": "ap-004", "parts": [{"text": "ביצענו עסקה", "auto": true}], "repeatCount": 1, "languageCode": "he-il"},
+    {"id": "ap-005", "parts": [{"text": "יש לי בית", "auto": true}], "repeatCount": 1, "languageCode": "he-il"},
+    {"id": "ap-006", "parts": [{"text": "עברנו דירה", "auto": true}], "repeatCount": 1, "languageCode": "he-il"},
+    {"id": "ap-007", "parts": [{"text": "קנינו במקום אחר", "auto": true}], "repeatCount": 1, "languageCode": "he-il"}
+  ]
+}

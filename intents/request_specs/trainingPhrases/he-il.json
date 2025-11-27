@@ -1,14 +1,136 @@
-[
-  {"id": "rs-001", "parts": [{"text": "מה המפרט"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rs-002", "parts": [{"text": "מה כולל"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rs-003", "parts": [{"text": "יש ממד"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rs-004", "parts": [{"text": "יש מחסן"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rs-005", "parts": [{"text": "כמה חניות"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rs-006", "parts": [{"text": "גודל הדירה"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rs-007", "parts": [{"text": "שטח בנוי"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rs-008", "parts": [{"text": "גודל מרפסת"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rs-009", "parts": [{"text": "כמה חדרים"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rs-010", "parts": [{"text": "איזה דירות יש"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rs-011", "parts": [{"text": "אפשר תכנית"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "rs-012", "parts": [{"text": "תשלח תכניות"}], "repeatCount": 1, "languageCode": "he-il"}
-]
+{
+  "trainingPhrases": [
+    {
+      "id": "rs-001",
+      "parts": [
+        {
+          "text": "מה המפרט",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "rs-002",
+      "parts": [
+        {
+          "text": "מה כולל",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "rs-003",
+      "parts": [
+        {
+          "text": "יש ממד",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "rs-004",
+      "parts": [
+        {
+          "text": "יש מחסן",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "rs-005",
+      "parts": [
+        {
+          "text": "כמה חניות",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "rs-006",
+      "parts": [
+        {
+          "text": "גודל הדירה",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "rs-007",
+      "parts": [
+        {
+          "text": "שטח בנוי",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "rs-008",
+      "parts": [
+        {
+          "text": "גודל מרפסת",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "rs-009",
+      "parts": [
+        {
+          "text": "כמה חדרים",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "rs-010",
+      "parts": [
+        {
+          "text": "איזה דירות יש",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "rs-011",
+      "parts": [
+        {
+          "text": "אפשר תכנית",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "rs-012",
+      "parts": [
+        {
+          "text": "תשלח תכניות",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    }
+  ]
+}

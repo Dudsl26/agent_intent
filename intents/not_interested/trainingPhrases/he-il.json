@@ -1,14 +1,136 @@
-[
-  {"id": "ni-001", "parts": [{"text": "לא תודה"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ni-002", "parts": [{"text": "לא מעוניין"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ni-003", "parts": [{"text": "לא מעוניינת"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ni-004", "parts": [{"text": "לא רלוונטי"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ni-005", "parts": [{"text": "לא מתאים"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ni-006", "parts": [{"text": "כבר קניתי"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ni-007", "parts": [{"text": "כבר לא רלוונטי"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ni-008", "parts": [{"text": "לא בשבילי"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ni-009", "parts": [{"text": "פחות רלוונטי"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ni-010", "parts": [{"text": "ירד מהפרק"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ni-011", "parts": [{"text": "לא רלוונטי כרגע"}], "repeatCount": 1, "languageCode": "he-il"},
-  {"id": "ni-012", "parts": [{"text": "נא להסיר אותי מרשימת התפוצה"}], "repeatCount": 1, "languageCode": "he-il"}
-]
+{
+  "trainingPhrases": [
+    {
+      "id": "ni-001",
+      "parts": [
+        {
+          "text": "לא תודה",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "ni-002",
+      "parts": [
+        {
+          "text": "לא מעוניין",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "ni-003",
+      "parts": [
+        {
+          "text": "לא מעוניינת",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "ni-004",
+      "parts": [
+        {
+          "text": "לא רלוונטי",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "ni-005",
+      "parts": [
+        {
+          "text": "לא מתאים",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "ni-006",
+      "parts": [
+        {
+          "text": "כבר קניתי",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "ni-007",
+      "parts": [
+        {
+          "text": "כבר לא רלוונטי",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "ni-008",
+      "parts": [
+        {
+          "text": "לא בשבילי",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "ni-009",
+      "parts": [
+        {
+          "text": "פחות רלוונטי",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "ni-010",
+      "parts": [
+        {
+          "text": "ירד מהפרק",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "ni-011",
+      "parts": [
+        {
+          "text": "לא רלוונטי כרגע",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    },
+    {
+      "id": "ni-012",
+      "parts": [
+        {
+          "text": "נא להסיר אותי מרשימת התפוצה",
+          "auto": true
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "he-il"
+    }
+  ]
+}
