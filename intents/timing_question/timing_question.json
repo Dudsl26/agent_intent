@@ -1,11 +1,6 @@
 {
-  "name": "timing_question",
+  "name": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
   "displayName": "timing_question",
   "priority": 500000,
-  "labels": {
-    "category": "qualification",
-    "interest_level": "medium-high",
-    "timing_important": "true"
-  },
-  "description": "User asks about project timeline and move-in dates"
+  "numTrainingPhrases": 7
 }
