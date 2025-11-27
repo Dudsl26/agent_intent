@@ -1,19 +1,13 @@
-# Environment variables
-.env
+# Git
+.git/
 
-# Node modules
-node_modules/
-package-lock.json
+# Agent export/import files
+*.zip
+agent_export/
 
-# Test results
-tests/test-results.json
-
-# Logs
-*.log
-logs/
-
-# Cloud Functions
-.gcloudignore
+# OS
+.DS_Store
+Thumbs.db
 
 # IDE
 .vscode/
@@ -21,24 +15,3 @@ logs/
 *.swp
 *.swo
 *~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Temporary files
-tmp/
-temp/
-*.tmp
-
-# Build outputs
-dist/
-build/
-
-# Credentials
-*-credentials.json
-service-account.json
-
-# Agent export/import files
-*.zip
-agent_export/
