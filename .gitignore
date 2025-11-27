@@ -38,3 +38,7 @@ build/
 # Credentials
 *-credentials.json
 service-account.json
+
+# Agent export/import files
+*.zip
+agent_export/
