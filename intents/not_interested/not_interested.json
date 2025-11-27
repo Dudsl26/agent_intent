@@ -1,11 +1,6 @@
 {
-  "name": "not_interested",
+  "name": "66666666-6666-6666-6666-666666666666",
   "displayName": "not_interested",
   "priority": 500000,
-  "labels": {
-    "category": "disqualification",
-    "interest_level": "none",
-    "lead_status": "cold"
-  },
-  "description": "User expresses lack of interest"
+  "numTrainingPhrases": 12
 }

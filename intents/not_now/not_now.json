@@ -1,11 +1,6 @@
 {
-  "name": "not_now",
+  "name": "77777777-7777-7777-7777-777777777777",
   "displayName": "not_now",
   "priority": 500000,
-  "labels": {
-    "category": "qualification",
-    "interest_level": "low",
-    "follow_up_needed": "true"
-  },
-  "description": "User is interested but not ready now"
+  "numTrainingPhrases": 10
 }

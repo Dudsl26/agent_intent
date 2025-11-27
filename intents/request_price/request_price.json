@@ -1,11 +1,6 @@
 {
-  "name": "request_price",
+  "name": "33333333-3333-3333-3333-333333333333",
   "displayName": "request_price",
   "priority": 500000,
-  "labels": {
-    "category": "qualification",
-    "interest_level": "medium",
-    "price_sensitivity": "high"
-  },
-  "description": "User asks about pricing information"
+  "numTrainingPhrases": 15
 }
