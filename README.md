@@ -84,7 +84,9 @@ This project implements a Google Dialogflow CX agent designed specifically for r
 agent_intent/
 ├── agent.json                      # Agent configuration
 ├── sessionParameters.json          # Session parameter definitions
-├── intents/                        # Intent definitions
+├── generativeSettings/             # Generative AI settings
+│   └── he-il.json
+├── intents/                        # Intent definitions (11 intents)
 │   ├── interested/
 │   │   ├── interested.json
 │   │   └── trainingPhrases/
@@ -100,19 +102,29 @@ agent_intent/
 │   └── timing_question/
 ├── flows/                          # Flow definitions
 │   ├── Default Start Flow/
+│   │   └── Default Start Flow.json
 │   └── Lead Qualification Flow/
-├── webhooks/                       # Webhook functions
-│   ├── playbook-handoff/
-│   │   ├── index.js
-│   │   └── package.json
-│   └── whatsapp-integration/
-│       ├── index.js
-│       └── package.json
-├── tests/                          # Test suite
-│   ├── intent-test-cases.json
-│   └── test-runner.js
+│       └── Lead Qualification Flow.json
+├── deployment/                     # Deployment scripts and webhooks
+│   ├── import-agent.sh             # Agent import script
+│   ├── deploy.sh                   # Webhook deployment script
+│   ├── deployment-config.yaml
+│   ├── .env.example
+│   ├── webhooks/
+│   │   ├── playbook-handoff/
+│   │   └── whatsapp-integration/
+│   └── tests/                      # Test suite
+│       ├── intent-test-cases.json
+│       └── test-runner.js
+├── docs/                           # Documentation
+│   ├── HOW_TO_IMPORT.md            # Import guide
+│   ├── QUICKSTART.md               # Quick setup guide
+│   ├── IMPLEMENTATION_GUIDE.md     # Detailed implementation
+│   └── IMPORT_FIXES.md             # Technical fixes
 └── README.md
 ```
+
+**Note:** The root directory contains ONLY Dialogflow CX agent files. This allows you to import the agent directly from the repository without extra files interfering.
 
 ## Prerequisites
 
@@ -140,21 +152,21 @@ gcloud services enable cloudfunctions.googleapis.com
 
 ### 2. Import Dialogflow CX Agent
 
-You can import this agent configuration into Dialogflow CX:
+**IMPORTANT:** The agent files must be imported into Dialogflow CX. Simply having them in the repository is not enough!
 
-1. Go to Dialogflow CX Console: https://dialogflow.cloud.google.com/cx
-2. Create a new agent or select existing
-3. Use the agent restore feature to import from this repository
+See **[docs/HOW_TO_IMPORT.md](docs/HOW_TO_IMPORT.md)** for detailed import instructions.
 
-Or use the gcloud CLI:
+Quick method:
+1. Go to [Dialogflow CX Console](https://dialogflow.cloud.google.com/cx)
+2. Select your agent
+3. Click ⚙️ (Settings) > Export and Import > Restore
+4. Upload the repository as a ZIP file
+5. Wait for import to complete
 
+Or use the automated script:
 ```bash
-# Set variables
-PROJECT_ID="your-project-id"
-LOCATION="us-central1"
-
-# The agent.json and related files are in this directory
-# Use Dialogflow CX console to import or use REST API
+cd deployment
+./import-agent.sh
 ```
 
 ### 3. Deploy Webhooks
@@ -162,7 +174,7 @@ LOCATION="us-central1"
 #### Playbook Handoff Webhook
 
 ```bash
-cd webhooks/playbook-handoff
+cd deployment/webhooks/playbook-handoff
 
 # Install dependencies
 npm install
@@ -183,7 +195,7 @@ gcloud functions deploy playbookHandoff \
 #### WhatsApp Integration Webhook
 
 ```bash
-cd webhooks/whatsapp-integration
+cd deployment/webhooks/whatsapp-integration
 
 # Install dependencies
 npm install
@@ -229,7 +241,7 @@ Update the following placeholders in flow responses:
 ### Run Automated Tests
 
 ```bash
-cd tests
+cd deployment/tests
 
 # Install dependencies
 npm install @google-cloud/dialogflow-cx
