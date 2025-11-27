@@ -1,0 +1,10 @@
+{
+  "name": "request_details",
+  "displayName": "request_details",
+  "priority": 500000,
+  "labels": {
+    "category": "qualification",
+    "interest_level": "medium-high"
+  },
+  "description": "User requests detailed information about the project"
+}

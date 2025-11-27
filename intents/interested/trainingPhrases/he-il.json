@@ -1,0 +1,202 @@
+[
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345001",
+    "parts": [
+      {
+        "text": "כן"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345002",
+    "parts": [
+      {
+        "text": "מעוניין"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345003",
+    "parts": [
+      {
+        "text": "מעוניינת"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345004",
+    "parts": [
+      {
+        "text": "אשמח לשמוע"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345005",
+    "parts": [
+      {
+        "text": "אשמח"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345006",
+    "parts": [
+      {
+        "text": "כן בבקשה"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345007",
+    "parts": [
+      {
+        "text": "בשמחה"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345008",
+    "parts": [
+      {
+        "text": "נשמע מעניין"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345009",
+    "parts": [
+      {
+        "text": "מעניין"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345010",
+    "parts": [
+      {
+        "text": "אפשר"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345011",
+    "parts": [
+      {
+        "text": "כן תודה"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345012",
+    "parts": [
+      {
+        "text": "בהחלט"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345013",
+    "parts": [
+      {
+        "text": "רלוונטי"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345014",
+    "parts": [
+      {
+        "text": "נשמח לשמוע פרטים"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345015",
+    "parts": [
+      {
+        "text": "אשמח לפרטים"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345016",
+    "parts": [
+      {
+        "text": "מעניין מאוד"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345017",
+    "parts": [
+      {
+        "text": "מעוניין לשמוע"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345018",
+    "parts": [
+      {
+        "text": "אשמח לדבר"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345019",
+    "parts": [
+      {
+        "text": "מעולה"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  },
+  {
+    "id": "c2f4e1a8-1234-5678-9abc-def012345020",
+    "parts": [
+      {
+        "text": "זה מעניין"
+      }
+    ],
+    "repeatCount": 1,
+    "languageCode": "he-il"
+  }
+]

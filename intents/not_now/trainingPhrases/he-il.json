@@ -1,0 +1,12 @@
+[
+  {"id": "nn-001", "parts": [{"text": "לא עכשיו"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "nn-002", "parts": [{"text": "כרגע לא"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "nn-003", "parts": [{"text": "בעתיד אולי"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "nn-004", "parts": [{"text": "לא בקרוב"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "nn-005", "parts": [{"text": "אעדכן בהמשך"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "nn-006", "parts": [{"text": "נחשוב"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "nn-007", "parts": [{"text": "צריך לחשוב"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "nn-008", "parts": [{"text": "לא בטוח"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "nn-009", "parts": [{"text": "נשוב אליך"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "nn-010", "parts": [{"text": "אחזור אליך"}], "repeatCount": 1, "languageCode": "he-il"}
+]

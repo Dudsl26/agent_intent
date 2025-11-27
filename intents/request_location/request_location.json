@@ -1,0 +1,11 @@
+{
+  "name": "request_location",
+  "displayName": "request_location",
+  "priority": 500000,
+  "labels": {
+    "category": "qualification",
+    "interest_level": "medium",
+    "location_important": "true"
+  },
+  "description": "User asks about project location"
+}

@@ -1,0 +1,118 @@
+{
+  "sessionParameters": [
+    {
+      "name": "phone_number",
+      "entityType": "@sys.phone-number",
+      "defaultValue": null,
+      "description": "User phone number captured from WhatsApp"
+    },
+    {
+      "name": "user_name",
+      "entityType": "@sys.person",
+      "defaultValue": null,
+      "description": "User name if provided during conversation"
+    },
+    {
+      "name": "interest_level",
+      "entityType": "@sys.any",
+      "defaultValue": "unknown",
+      "description": "Qualification level: none, low, medium, medium-high, high, unknown"
+    },
+    {
+      "name": "initial_response",
+      "entityType": "@sys.any",
+      "defaultValue": null,
+      "description": "First response type from user"
+    },
+    {
+      "name": "initial_question",
+      "entityType": "@sys.any",
+      "defaultValue": null,
+      "description": "Type of first question: price, details, location, specs, timing, other"
+    },
+    {
+      "name": "lead_status",
+      "entityType": "@sys.any",
+      "defaultValue": "new",
+      "description": "Lead status: new, qualified, cold, hot, not_interested, converted_elsewhere"
+    },
+    {
+      "name": "conversation_start",
+      "entityType": "@sys.date-time",
+      "defaultValue": "$request.time",
+      "description": "Timestamp when conversation started"
+    },
+    {
+      "name": "messages_count",
+      "entityType": "@sys.number-integer",
+      "defaultValue": 0,
+      "description": "Number of messages exchanged in conversation"
+    },
+    {
+      "name": "price_sensitivity",
+      "entityType": "@sys.any",
+      "defaultValue": null,
+      "description": "Price sensitivity level: high, medium, low"
+    },
+    {
+      "name": "detail_oriented",
+      "entityType": "@sys.any",
+      "defaultValue": false,
+      "description": "Whether user asks detailed technical questions"
+    },
+    {
+      "name": "timing_important",
+      "entityType": "@sys.any",
+      "defaultValue": false,
+      "description": "Whether timing/move-in date is important to user"
+    },
+    {
+      "name": "location_important",
+      "entityType": "@sys.any",
+      "defaultValue": false,
+      "description": "Whether location is important factor for user"
+    },
+    {
+      "name": "wants_catalog",
+      "entityType": "@sys.any",
+      "defaultValue": false,
+      "description": "User requested detailed catalog/brochure"
+    },
+    {
+      "name": "needs_reintroduction",
+      "entityType": "@sys.any",
+      "defaultValue": false,
+      "description": "User is confused and needs reintroduction"
+    },
+    {
+      "name": "follow_up_needed",
+      "entityType": "@sys.any",
+      "defaultValue": false,
+      "description": "User needs follow-up at later time"
+    },
+    {
+      "name": "potential_referral",
+      "entityType": "@sys.any",
+      "defaultValue": false,
+      "description": "User may provide referrals"
+    },
+    {
+      "name": "playbook_session_id",
+      "entityType": "@sys.any",
+      "defaultValue": null,
+      "description": "Session ID when handed off to Playbook"
+    },
+    {
+      "name": "handed_off",
+      "entityType": "@sys.any",
+      "defaultValue": false,
+      "description": "Whether conversation was handed off to Playbook"
+    },
+    {
+      "name": "topics_discussed",
+      "entityType": "@sys.any",
+      "defaultValue": [],
+      "description": "Array of topics discussed during conversation"
+    }
+  ]
+}

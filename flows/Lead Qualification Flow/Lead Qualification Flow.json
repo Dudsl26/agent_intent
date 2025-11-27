@@ -1,0 +1,333 @@
+{
+  "name": "lead-qualification-flow",
+  "displayName": "Lead Qualification Flow",
+  "description": "Initial conversation flow for qualifying real estate leads in Hebrew",
+  "transitionRoutes": [
+    {
+      "intent": "interested",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "מעולה!\nאשמח לשתף אותך בפרטים על הפרויקט.\n\nכמה שאלות קצרות כדי שאוכל להתאים לך בדיוק את מה שמתאים:\n• כמה חדרים את/ה מחפש/ת?\n• מה תקציב בערך?\n• מתי את/ה מתכנן/ת לעבור?\n\nאני כאן לכל שאלה!"
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ],
+        "setParameterActions": [
+          {
+            "parameter": "interest_level",
+            "value": "high"
+          },
+          {
+            "parameter": "initial_response",
+            "value": "interested"
+          }
+        ]
+      }
+    },
+    {
+      "intent": "request_price",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "המחירים משתנים לפי גודל הדירה וקומה\n\nבקצרה:\n• 3 חדרים - החל מ-₪[PRICE_3BR]\n• 4 חדרים - החל מ-₪[PRICE_4BR]\n• 5 חדרים - החל מ-₪[PRICE_5BR]\n\nיש לנו גם אפשרויות מימון מעולות ומבצעים מיוחדים!\n\nמה מתאים לך בערך? אשמח לתת פרטים מדויקים יותר"
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ],
+        "setParameterActions": [
+          {
+            "parameter": "interest_level",
+            "value": "medium"
+          },
+          {
+            "parameter": "initial_question",
+            "value": "price"
+          },
+          {
+            "parameter": "price_sensitivity",
+            "value": "high"
+          }
+        ]
+      }
+    },
+    {
+      "intent": "request_details",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "בטח!\n\nהפרויקט שלנו כולל:\n• בניין איכותי ב[מיקום]\n• דירות 3-6 חדרים\n• כניסה ב[תאריך]\n• מפרט גבוה + ממ״ד בכל דירה\n• חניות ומחסנים\n\nאשלח לך עוד רגע קטלוג מלא!\n\nמה בדיוק מעניין אותך? גודל מסוים? קומה?"
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ],
+        "setParameterActions": [
+          {
+            "parameter": "interest_level",
+            "value": "medium-high"
+          },
+          {
+            "parameter": "initial_question",
+            "value": "details"
+          },
+          {
+            "parameter": "wants_catalog",
+            "value": true
+          }
+        ]
+      }
+    },
+    {
+      "intent": "request_location",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "הפרויקט נמצא ב[שם העיר/אזור]\n\nמיקום מעולה:\n• קרוב למרכזי תעסוקה\n• בתי ספר ומעונות בהליכה\n• קניונים ושירותים בסביבה\n• גישה נוחה לכבישים ראשיים\n\nזה באזור שמעניין אותך?"
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ],
+        "setParameterActions": [
+          {
+            "parameter": "interest_level",
+            "value": "medium"
+          },
+          {
+            "parameter": "initial_question",
+            "value": "location"
+          },
+          {
+            "parameter": "location_important",
+            "value": true
+          }
+        ]
+      }
+    },
+    {
+      "intent": "not_interested",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "אין בעיה, מובן לגמרי!\n\nאשמח שתשמור את הפרטים שלי למקרה שתתעניין בעתיד.\nיש המון דברים שמשתנים בשוק ואולי נתאים לך בהמשך.\n\nבהצלחה במציאת הבית המושלם!"
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ],
+        "setParameterActions": [
+          {
+            "parameter": "interest_level",
+            "value": "none"
+          },
+          {
+            "parameter": "initial_response",
+            "value": "not_interested"
+          },
+          {
+            "parameter": "lead_status",
+            "value": "cold"
+          }
+        ]
+      }
+    },
+    {
+      "intent": "not_now",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "מובן לגמרי!\n\nקנייה זה החלטה חשובה ולוקחת זמן.\n\nאשאיר את הפרטים שלך ואצור קשר בעוד כמה שבועות/חודשים לראות מה המצב.\n\nמתי בערך כדאי שאחזור אליך?"
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ],
+        "setParameterActions": [
+          {
+            "parameter": "interest_level",
+            "value": "low"
+          },
+          {
+            "parameter": "initial_response",
+            "value": "not_now"
+          },
+          {
+            "parameter": "follow_up_needed",
+            "value": true
+          }
+        ]
+      }
+    },
+    {
+      "intent": "already_purchased",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "מזל טוב על הבית החדש!\n\nשמח לשמוע! איפה קניתם בסוף?\n\nאם תכירו מישהו שמחפש דירה - אשמח אם תעבירו אותי הלאה.\n\nבהצלחה עם המעבר!"
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ],
+        "setParameterActions": [
+          {
+            "parameter": "interest_level",
+            "value": "none"
+          },
+          {
+            "parameter": "initial_response",
+            "value": "already_purchased"
+          },
+          {
+            "parameter": "lead_status",
+            "value": "converted_elsewhere"
+          },
+          {
+            "parameter": "potential_referral",
+            "value": true
+          }
+        ]
+      }
+    },
+    {
+      "intent": "confusion",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "סליחה על הבלבול!\n\nאני [שם] מ[שם החברה] - אנחנו משווקים פרויקט נדל״ן חדש ב[מיקום].\n\nנראה שדיברנו/נרשמת לעדכונים לפני זמן מה.\n\nאם זה לא מעניין - אין בעיה בכלל!\nאו שאולי תרצה לשמוע בקצרה מה יש?"
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ],
+        "setParameterActions": [
+          {
+            "parameter": "interest_level",
+            "value": "unknown"
+          },
+          {
+            "parameter": "initial_response",
+            "value": "confusion"
+          },
+          {
+            "parameter": "needs_reintroduction",
+            "value": true
+          }
+        ]
+      }
+    },
+    {
+      "intent": "request_specs",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "שאלה מצוינת!\n\nהמפרט שלנו כולל:\n• בנייה איכותית לפי תקן\n• ממ״ד בכל דירה\n• דלת משוריינת\n• מוכן למזגן\n• נקודות חשמל נוספות\n• חניה + מחסן (ברוב הדירות)\n\nיש משהו ספציפי שחשוב לך במיוחד?"
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ],
+        "setParameterActions": [
+          {
+            "parameter": "interest_level",
+            "value": "high"
+          },
+          {
+            "parameter": "initial_question",
+            "value": "specs"
+          },
+          {
+            "parameter": "detail_oriented",
+            "value": true
+          }
+        ]
+      }
+    },
+    {
+      "intent": "timing_question",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "הכניסה המתוכננת היא ב[תאריך]\n\nהפרויקט בשלב [שלב בנייה] והכל מתקדם לפי לוח הזמנים.\n\nאם אתה מתכנן לעבור בתקופה הזו - זה באמת timing מושלם!\n\nיש לך גמישות בזמני המעבר?"
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ],
+        "setParameterActions": [
+          {
+            "parameter": "interest_level",
+            "value": "medium-high"
+          },
+          {
+            "parameter": "initial_question",
+            "value": "timing"
+          },
+          {
+            "parameter": "timing_important",
+            "value": true
+          }
+        ]
+      }
+    }
+  ],
+  "eventHandlers": [
+    {
+      "event": "sys.no-match-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "היי!\n\nאני כאן כדי לעזור לך עם הפרויקט שלנו ב[מיקום].\n\nלא הצלחתי להבין בדיוק מה חיפשת - תוכל לנסח שוב?\n\nאו אולי תעדיף שפשוט אספר לך בקצרה על הפרויקט?"
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ]
+      }
+    },
+    {
+      "event": "sys.no-input-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "אני כאן!\n\nאם תרצה לשמוע על הפרויקט או לשאול משהו - אני זמין."
+              ]
+            },
+            "languageCode": "he-il"
+          }
+        ]
+      }
+    }
+  ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  }
+}

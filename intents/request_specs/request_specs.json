@@ -1,0 +1,11 @@
+{
+  "name": "request_specs",
+  "displayName": "request_specs",
+  "priority": 500000,
+  "labels": {
+    "category": "qualification",
+    "interest_level": "high",
+    "detail_oriented": "true"
+  },
+  "description": "User asks technical questions about specifications"
+}

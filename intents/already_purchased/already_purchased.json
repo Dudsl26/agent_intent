@@ -1,0 +1,12 @@
+{
+  "name": "already_purchased",
+  "displayName": "already_purchased",
+  "priority": 500000,
+  "labels": {
+    "category": "disqualification",
+    "interest_level": "none",
+    "lead_status": "converted_elsewhere",
+    "potential_referral": "true"
+  },
+  "description": "User has already purchased property elsewhere"
+}

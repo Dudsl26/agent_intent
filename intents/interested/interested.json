@@ -1,0 +1,10 @@
+{
+  "name": "interested",
+  "displayName": "interested",
+  "priority": 500000,
+  "labels": {
+    "category": "qualification",
+    "interest_level": "high"
+  },
+  "description": "User expresses interest in the real estate project"
+}

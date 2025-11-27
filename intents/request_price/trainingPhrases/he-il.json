@@ -1,0 +1,17 @@
+[
+  {"id": "rp-001", "parts": [{"text": "מה המחיר"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-002", "parts": [{"text": "כמה זה עולה"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-003", "parts": [{"text": "מחיר"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-004", "parts": [{"text": "מה עלות"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-005", "parts": [{"text": "מה מחיר"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-006", "parts": [{"text": "כמה עולה"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-007", "parts": [{"text": "מחירים"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-008", "parts": [{"text": "מה המחירים"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-009", "parts": [{"text": "באיזה מחיר"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-010", "parts": [{"text": "מה הסכום"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-011", "parts": [{"text": "מה עולה"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-012", "parts": [{"text": "כמה הבית"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-013", "parts": [{"text": "מה מחיר הנכס"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-014", "parts": [{"text": "תנאי מימון"}], "repeatCount": 1, "languageCode": "he-il"},
+  {"id": "rp-015", "parts": [{"text": "בכמה"}], "repeatCount": 1, "languageCode": "he-il"}
+]

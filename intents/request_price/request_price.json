@@ -1,0 +1,11 @@
+{
+  "name": "request_price",
+  "displayName": "request_price",
+  "priority": 500000,
+  "labels": {
+    "category": "qualification",
+    "interest_level": "medium",
+    "price_sensitivity": "high"
+  },
+  "description": "User asks about pricing information"
+}
