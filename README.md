@@ -27,8 +27,9 @@ agent_intent/
 ├── flows/                  # 2 flow definitions
 │   ├── Default Start Flow/
 │   └── Lead Qualification Flow/
-└── playbooks/              # Dialogflow CX Playbooks
-    ├── keidar-real-estate-playbook.yaml
+└── playbook/               # Dialogflow CX Playbook
+    ├── Keidar Real Estate Assistant/
+    │   └── Keidar Real Estate Assistant.json
     └── README.md
 ```
 
