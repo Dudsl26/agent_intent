@@ -6,6 +6,7 @@
 *.tar.gz
 agent_export/
 agent_package/
+clean_export/
 
 # OS
 .DS_Store
