@@ -1,0 +1,78 @@
+{
+  "displayName": "Keidar Property Lookup",
+  "description": "Tool to lookup Keidar real estate properties by city and room count",
+  "openApiSpec": {
+    "schemaVersion": "3.0",
+    "description": "API to fetch property details from Keidar database",
+    "servers": [
+      {
+        "url": "https://api.keidar.example.com"
+      }
+    ],
+    "paths": {
+      "/properties": {
+        "get": {
+          "summary": "Get properties by city and rooms",
+          "operationId": "getProperties",
+          "parameters": [
+            {
+              "name": "city",
+              "in": "query",
+              "required": true,
+              "schema": {
+                "type": "string",
+                "enum": ["רעננה", "כפר סבא", "הוד השרון", "הרצליה", "תל אביב"]
+              },
+              "description": "City name in Hebrew"
+            },
+            {
+              "name": "rooms",
+              "in": "query",
+              "required": false,
+              "schema": {
+                "type": "integer",
+                "minimum": 2,
+                "maximum": 8
+              },
+              "description": "Number of rooms"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "List of properties",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "properties": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "project": {"type": "string"},
+                            "address": {"type": "string"},
+                            "rooms": {"type": "integer"},
+                            "price": {"type": "string"},
+                            "availability": {"type": "string"}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "authentication": {
+    "type": "API_KEY_AUTH",
+    "apiKeyConfig": {
+      "keyName": "X-API-Key",
+      "in": "header"
+    }
+  }
+}

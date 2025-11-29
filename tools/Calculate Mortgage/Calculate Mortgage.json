@@ -1,0 +1,68 @@
+{
+  "displayName": "Calculate Mortgage",
+  "description": "Tool to calculate mortgage payments based on property price",
+  "openApiSpec": {
+    "schemaVersion": "3.0",
+    "description": "Mortgage calculator API",
+    "servers": [
+      {
+        "url": "https://api.keidar.example.com"
+      }
+    ],
+    "paths": {
+      "/mortgage/calculate": {
+        "post": {
+          "summary": "Calculate mortgage payment",
+          "operationId": "calculateMortgage",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "price": {
+                      "type": "number",
+                      "description": "Property price in ILS"
+                    },
+                    "downPayment": {
+                      "type": "number",
+                      "description": "Down payment percentage (0-100)"
+                    },
+                    "years": {
+                      "type": "integer",
+                      "description": "Mortgage duration in years"
+                    },
+                    "interestRate": {
+                      "type": "number",
+                      "description": "Annual interest rate percentage"
+                    }
+                  },
+                  "required": ["price", "downPayment", "years", "interestRate"]
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Mortgage calculation result",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "monthlyPayment": {"type": "number"},
+                      "totalPayment": {"type": "number"},
+                      "totalInterest": {"type": "number"},
+                      "loanAmount": {"type": "number"}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
