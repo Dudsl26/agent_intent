@@ -27,6 +27,90 @@
       }
     ]
   },
+  "inputParameterDefinitions": [
+    {
+      "name": "user_name",
+      "description": "שם הלקוח",
+      "type": "STRING"
+    },
+    {
+      "name": "phone_number",
+      "description": "מספר טלפון הלקוח",
+      "type": "STRING"
+    },
+    {
+      "name": "interest_level",
+      "description": "רמת עניין: none, low, medium, medium-high, high, unknown",
+      "type": "STRING"
+    },
+    {
+      "name": "initial_response",
+      "description": "תגובה ראשונית של הלקוח",
+      "type": "STRING"
+    },
+    {
+      "name": "initial_question",
+      "description": "שאלה ראשונית של הלקוח",
+      "type": "STRING"
+    },
+    {
+      "name": "lead_status",
+      "description": "סטטוס ליד: new, qualified, cold, hot, not_interested, converted_elsewhere",
+      "type": "STRING"
+    }
+  ],
+  "outputParameterDefinitions": [
+    {
+      "name": "interest_level",
+      "description": "רמת עניין מעודכנת לאחר השיחה",
+      "type": "STRING"
+    },
+    {
+      "name": "lead_status",
+      "description": "סטטוס ליד מעודכן",
+      "type": "STRING"
+    },
+    {
+      "name": "price_sensitivity",
+      "description": "האם הלקוח שאל על מחירים",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "detail_oriented",
+      "description": "האם הלקוח שאל שאלות מפורטות",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "timing_important",
+      "description": "האם תזמון חשוב ללקוח",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "location_important",
+      "description": "האם מיקום חשוב ללקוח",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "wants_catalog",
+      "description": "האם הלקוח רוצה קטלוג",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "follow_up_needed",
+      "description": "האם נדרש מעקב",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "handed_off",
+      "description": "האם הועבר לנציג מכירות",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "playbook_session_id",
+      "description": "מזהה סשן של הפלייבוק",
+      "type": "STRING"
+    }
+  ],
   "referencedPlaybooks": [],
   "referencedFlows": [],
   "referencedTools": []

@@ -8,10 +8,8 @@
       "triggerFulfillment": {
         "messages": [
           {
-            "text": {
-              "text": [
-                "מעולה!\nאשמח לשתף אותך בפרטים על הפרויקט.\n\nכמה שאלות קצרות כדי שאוכל להתאים לך בדיוק את מה שמתאים:\n• כמה חדרים את/ה מחפש/ת?\n• מה תקציב בערך?\n• מתי את/ה מתכנן/ת לעבור?\n\nאני כאן לכל שאלה!"
-              ]
+            "playbook": {
+              "displayName": "Keidar Real Estate Assistant"
             },
             "languageCode": "he-il"
           }
@@ -33,10 +31,8 @@
       "triggerFulfillment": {
         "messages": [
           {
-            "text": {
-              "text": [
-                "המחירים משתנים לפי גודל הדירה וקומה\n\nבקצרה:\n• 3 חדרים - החל מ-₪[PRICE_3BR]\n• 4 חדרים - החל מ-₪[PRICE_4BR]\n• 5 חדרים - החל מ-₪[PRICE_5BR]\n\nיש לנו גם אפשרויות מימון מעולות ומבצעים מיוחדים!\n\nמה מתאים לך בערך? אשמח לתת פרטים מדויקים יותר"
-              ]
+            "playbook": {
+              "displayName": "Keidar Real Estate Assistant"
             },
             "languageCode": "he-il"
           }
@@ -52,7 +48,7 @@
           },
           {
             "parameter": "price_sensitivity",
-            "value": "high"
+            "value": true
           }
         ]
       }
@@ -62,10 +58,8 @@
       "triggerFulfillment": {
         "messages": [
           {
-            "text": {
-              "text": [
-                "בטח!\n\nהפרויקט שלנו כולל:\n• בניין איכותי ב[מיקום]\n• דירות 3-6 חדרים\n• כניסה ב[תאריך]\n• מפרט גבוה + ממ״ד בכל דירה\n• חניות ומחסנים\n\nאשלח לך עוד רגע קטלוג מלא!\n\nמה בדיוק מעניין אותך? גודל מסוים? קומה?"
-              ]
+            "playbook": {
+              "displayName": "Keidar Real Estate Assistant"
             },
             "languageCode": "he-il"
           }
@@ -80,7 +74,7 @@
             "value": "details"
           },
           {
-            "parameter": "wants_catalog",
+            "parameter": "detail_oriented",
             "value": true
           }
         ]
@@ -91,10 +85,8 @@
       "triggerFulfillment": {
         "messages": [
           {
-            "text": {
-              "text": [
-                "הפרויקט נמצא ב[שם העיר/אזור]\n\nמיקום מעולה:\n• קרוב למרכזי תעסוקה\n• בתי ספר ומעונות בהליכה\n• קניונים ושירותים בסביבה\n• גישה נוחה לכבישים ראשיים\n\nזה באזור שמעניין אותך?"
-              ]
+            "playbook": {
+              "displayName": "Keidar Real Estate Assistant"
             },
             "languageCode": "he-il"
           }
@@ -211,10 +203,8 @@
       "triggerFulfillment": {
         "messages": [
           {
-            "text": {
-              "text": [
-                "סליחה על הבלבול!\n\nאני [שם] מ[שם החברה] - אנחנו משווקים פרויקט נדל״ן חדש ב[מיקום].\n\nנראה שדיברנו/נרשמת לעדכונים לפני זמן מה.\n\nאם זה לא מעניין - אין בעיה בכלל!\nאו שאולי תרצה לשמוע בקצרה מה יש?"
-              ]
+            "playbook": {
+              "displayName": "Keidar Real Estate Assistant"
             },
             "languageCode": "he-il"
           }
@@ -240,10 +230,8 @@
       "triggerFulfillment": {
         "messages": [
           {
-            "text": {
-              "text": [
-                "שאלה מצוינת!\n\nהמפרט שלנו כולל:\n• בנייה איכותית לפי תקן\n• ממ״ד בכל דירה\n• דלת משוריינת\n• מוכן למזגן\n• נקודות חשמל נוספות\n• חניה + מחסן (ברוב הדירות)\n\nיש משהו ספציפי שחשוב לך במיוחד?"
-              ]
+            "playbook": {
+              "displayName": "Keidar Real Estate Assistant"
             },
             "languageCode": "he-il"
           }
@@ -269,10 +257,8 @@
       "triggerFulfillment": {
         "messages": [
           {
-            "text": {
-              "text": [
-                "הכניסה המתוכננת היא ב[תאריך]\n\nהפרויקט בשלב [שלב בנייה] והכל מתקדם לפי לוח הזמנים.\n\nאם אתה מתכנן לעבור בתקופה הזו - זה באמת timing מושלם!\n\nיש לך גמישות בזמני המעבר?"
-              ]
+            "playbook": {
+              "displayName": "Keidar Real Estate Assistant"
             },
             "languageCode": "he-il"
           }
