@@ -3,7 +3,9 @@
 
 # Agent export/import files
 *.zip
+*.tar.gz
 agent_export/
+agent_package/
 
 # OS
 .DS_Store

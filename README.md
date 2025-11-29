@@ -42,53 +42,89 @@ agent_intent/
 - **Playbook** with comprehensive knowledge base for Keidar real estate
 - **WhatsApp Integration** ready
 
-## How to Import This Agent
+## ⚡ Quick Import (Recommended)
 
-### Method 1: Dialogflow CX Console (Recommended)
-
-1. **Go to Dialogflow CX Console**
-   - Visit: https://dialogflow.cloud.google.com/cx
-
-2. **Create or Select Agent**
-   - Create a new agent or select an existing one
-   - Set language to **Hebrew (he-il)**
-
-3. **Import the Agent**
-   - Click the ⚙️ **Settings** icon (next to agent name)
-   - Go to **"Export and Import"** tab
-   - Click **"Restore"**
-   - Select **"Upload"**
-   - Create a ZIP file of this repository:
-     ```bash
-     cd /path/to/agent_intent
-     zip -r agent.zip . -x "*.git*"
-     ```
-   - Upload `agent.zip`
-   - Click **"Restore"**
-
-4. **Wait for Import** (1-2 minutes)
-
-5. **Verify Import**
-   - Check that all 11 intents are present
-   - Check that both flows are configured
-   - Test in "Test Agent" panel with Hebrew phrases
-
-### Method 2: Using gcloud CLI
+**Step 1:** Create the package
 
 ```bash
-# Set your variables
-PROJECT_ID="your-project-id"
-LOCATION="global"
-AGENT_ID="your-agent-id"
-
-# Create zip file
-zip -r agent.zip . -x "*.git*"
-
-# Restore agent
-gcloud dialogflow agents restore \
-  "projects/$PROJECT_ID/locations/$LOCATION/agents/$AGENT_ID" \
-  --agent-content="$(cat agent.zip | base64 -w 0)"
+./package_agent.sh
 ```
+
+**Step 2:** Import using gcloud
+
+```bash
+export PROJECT_ID="your-google-cloud-project-id"
+export LOCATION="global"
+
+cd agent_package
+./import_using_gcloud.sh
+```
+
+**Done!** Your agent will be imported in 1-2 minutes.
+
+---
+
+## How to Import This Agent
+
+### Method 1: Using Package Script (Easiest)
+
+This method creates a Google-compatible agent package:
+
+```bash
+# 1. Create package
+./package_agent.sh
+
+# This creates:
+# - agent_package/keidar_agent_TIMESTAMP.tar.gz (Google format)
+# - agent_package/keidar_agent_TIMESTAMP.zip (backup)
+# - agent_package/import_using_gcloud.sh (import script)
+# - agent_package/README.md (detailed instructions)
+
+# 2. Set environment
+export PROJECT_ID="your-project-id"
+export LOCATION="global"
+
+# 3. Import
+cd agent_package
+./import_using_gcloud.sh
+```
+
+**What gets imported:**
+- ✅ Agent configuration
+- ✅ All 11 intents with training phrases
+- ✅ Both flows with playbook invocations
+- ✅ Session parameters
+- ✅ Event handlers
+
+See `agent_package/README.md` after running package script for detailed options.
+
+---
+
+### Method 2: Using Python Script (Alternative)
+
+Alternatively, use the Python API script:
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Authenticate
+gcloud auth application-default login
+
+# 3. Set environment
+export PROJECT_ID="your-project-id"
+
+# 4. Run import
+python import_agent.py
+```
+
+See `IMPORT_SCRIPT_README.md` for details.
+
+---
+
+### Method 3: Manual Import
+
+For manual import via console, see `IMPORT_GUIDE.md`
 
 ## Test Phrases (Hebrew)
 
