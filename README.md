@@ -53,6 +53,28 @@ agent_intent/
 - **18 Session Parameters** for lead tracking
 - **WhatsApp Integration** ready
 
+## ⚠️ IMPORTANT: Importing from GitHub
+
+**You CANNOT use Dialogflow CX Console's "Restore" button with files from GitHub!**
+
+The Console's "Restore" feature only accepts binary blob files previously exported from Dialogflow CX, not raw JSON files from a repository.
+
+### ✅ After Cloning from GitHub:
+
+```bash
+git clone https://github.com/Dudsl26/agent_intent.git
+cd agent_intent
+
+# Run the interactive import script
+./quick_import.sh
+```
+
+The script will guide you through the import process with multiple options.
+
+**📖 See [GITHUB_IMPORT.md](GITHUB_IMPORT.md) for detailed instructions and troubleshooting.**
+
+---
+
 ## ⚡ Quick Import (Recommended)
 
 **Step 1:** Create the package
