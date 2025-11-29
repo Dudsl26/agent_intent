@@ -4,42 +4,53 @@ A Hebrew-language conversational AI agent for qualifying real estate leads throu
 
 ## What This Repository Contains
 
-This is a **Dialogflow CX agent export** with the following structure:
+This is a **complete Dialogflow CX agent** following Google's official architecture with all 6 required directories.
+
+📖 See **[ARCHITECTURE.md](ARCHITECTURE.md)** for complete technical documentation.
+
+### Repository Structure
 
 ```
 agent_intent/
-├── agent.json              # Agent configuration
-├── sessionParameters.json  # Session parameters
-├── generativeSettings/     # Generative AI settings
-├── intents/                # 11 intent definitions with Hebrew training phrases
-│   ├── Default Welcome Intent/
-│   ├── Default Negative Intent/
+├── 1️⃣  agent.json                    # Agent Metadata
+├── 2️⃣  flows/                        # Structured Conversation Logic (2 flows)
+│   ├── Default Start Flow/
+│   └── Lead Qualification Flow/
+├── 3️⃣  intents/                      # Standard NLU Training Data (11 intents)
 │   ├── interested/
 │   ├── request_price/
 │   ├── request_details/
-│   ├── request_location/
-│   ├── not_interested/
-│   ├── not_now/
-│   ├── already_purchased/
-│   ├── confusion/
-│   ├── request_specs/
-│   └── timing_question/
-├── flows/                  # 2 flow definitions
-│   ├── Default Start Flow/
-│   └── Lead Qualification Flow/
-└── playbook/               # Dialogflow CX Playbook
-    ├── Keidar Real Estate Assistant/
-    │   └── Keidar Real Estate Assistant.json
-    └── README.md
+│   └── ... (+ 8 more)
+├── 4️⃣  entityTypes/                  # Custom Data Types
+│   ├── city/                       # 5 Israeli cities
+│   └── room_count/                 # 2-8 rooms
+├── 5️⃣  playbooks/                    # Generative AI Logic
+│   └── Keidar Real Estate Assistant/
+├── 6️⃣  tools/                        # External API Connection
+│   ├── Keidar Property Lookup/
+│   └── Calculate Mortgage/
+├── sessionParameters.json          # Session parameters
+└── generativeSettings/             # AI settings
 ```
+
+**Complete Dialogflow CX Architecture:**
+- ✅ Intent Recognition (NLU)
+- ✅ Conversation Flows
+- ✅ Generative Playbook
+- ✅ Custom Entity Extraction
+- ✅ External API Integration
+- ✅ Session Management
 
 ## Features
 
+- **6 Required Directories** (Google Dialogflow CX structure)
 - **11 Intents** for lead qualification in Hebrew
 - **130+ Training Phrases** in Hebrew (he-il)
-- **2 Flows** with routing and event handlers
+- **2 Flows** with playbook invocations
+- **2 Entity Types** (city, room_count)
+- **1 Playbook** with comprehensive knowledge base
+- **2 Tools** for external API integration
 - **18 Session Parameters** for lead tracking
-- **Playbook** with comprehensive knowledge base for Keidar real estate
 - **WhatsApp Integration** ready
 
 ## ⚡ Quick Import (Recommended)

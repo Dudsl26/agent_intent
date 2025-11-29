@@ -113,5 +113,8 @@
   ],
   "referencedPlaybooks": [],
   "referencedFlows": [],
-  "referencedTools": []
+  "referencedTools": [
+    "Keidar Property Lookup",
+    "Calculate Mortgage"
+  ]
 }

@@ -1,0 +1,38 @@
+{
+  "name": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+  "displayName": "room_count",
+  "kind": "KIND_MAP",
+  "entities": [
+    {
+      "value": "2",
+      "synonyms": ["2", "שניים", "שני חדרים", "2 חדרים"]
+    },
+    {
+      "value": "3",
+      "synonyms": ["3", "שלושה", "שלושה חדרים", "3 חדרים"]
+    },
+    {
+      "value": "4",
+      "synonyms": ["4", "ארבעה", "ארבעה חדרים", "4 חדרים"]
+    },
+    {
+      "value": "5",
+      "synonyms": ["5", "חמישה", "חמישה חדרים", "5 חדרים"]
+    },
+    {
+      "value": "6",
+      "synonyms": ["6", "שישה", "שישה חדרים", "6 חדרים"]
+    },
+    {
+      "value": "7",
+      "synonyms": ["7", "שבעה", "שבעה חדרים", "7 חדרים"]
+    },
+    {
+      "value": "8",
+      "synonyms": ["8", "שמונה", "שמונה חדרים", "8 חדרים"]
+    }
+  ],
+  "excludedPhrases": [],
+  "enableFuzzyExtraction": false,
+  "redact": false
+}
