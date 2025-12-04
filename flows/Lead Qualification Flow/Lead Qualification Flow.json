@@ -14,9 +14,13 @@
       }, {
         "parameter": "initial_response",
         "value": "interested"
+      }, {
+        "parameter": "triggered_intent",
+        "value": "interested"
       } ]
     },
-    "name": "2249a6ba-560b-468d-aa62-1a1048f70026"
+    "name": "2249a6ba-560b-468d-aa62-1a1048f70026",
+    "targetPlaybook": "סוכן נדלן"
   }, {
     "intent": "request_price",
     "triggerFulfillment": {
@@ -29,6 +33,9 @@
       }, {
         "parameter": "price_sensitivity",
         "value": true
+      }, {
+        "parameter": "triggered_intent",
+        "value": "request_price"
       } ]
     },
     "name": "8c8d14ea-26a9-44cc-96ce-c67c7ec8f0d6",
@@ -48,9 +55,13 @@
       }, {
         "parameter": "detail_oriented",
         "value": true
+      }, {
+        "parameter": "triggered_intent",
+        "value": "request_details"
       } ]
     },
-    "name": "25d213b4-0a53-4c4a-953b-d8ab672c9f05"
+    "name": "25d213b4-0a53-4c4a-953b-d8ab672c9f05",
+    "targetPlaybook": "סוכן נדלן"
   }, {
     "intent": "request_location",
     "triggerFulfillment": {
@@ -66,9 +77,13 @@
       }, {
         "parameter": "location_important",
         "value": true
+      }, {
+        "parameter": "triggered_intent",
+        "value": "request_location"
       } ]
     },
-    "name": "92067196-59bb-4bb8-bba3-94fd79fe1ebb"
+    "name": "92067196-59bb-4bb8-bba3-94fd79fe1ebb",
+    "targetPlaybook": "סוכן נדלן"
   }, {
     "intent": "not_interested",
     "triggerFulfillment": {
@@ -87,9 +102,13 @@
       }, {
         "parameter": "lead_status",
         "value": "cold"
+      }, {
+        "parameter": "triggered_intent",
+        "value": "not_interested"
       } ]
     },
-    "name": "26da1e75-2f06-41a2-b034-b82664186b9f"
+    "name": "26da1e75-2f06-41a2-b034-b82664186b9f",
+    "targetPlaybook": "סוכן נדלן"
   }, {
     "intent": "not_now",
     "triggerFulfillment": {
@@ -108,9 +127,13 @@
       }, {
         "parameter": "follow_up_needed",
         "value": true
+      }, {
+        "parameter": "triggered_intent",
+        "value": "not_now"
       } ]
     },
-    "name": "c3c46361-735b-4d39-9e36-63673060799b"
+    "name": "c3c46361-735b-4d39-9e36-63673060799b",
+    "targetPlaybook": "סוכן נדלן"
   }, {
     "intent": "already_purchased",
     "triggerFulfillment": {
@@ -132,9 +155,13 @@
       }, {
         "parameter": "potential_referral",
         "value": true
+      }, {
+        "parameter": "triggered_intent",
+        "value": "already_purchased"
       } ]
     },
-    "name": "0c17afd6-ef2f-46df-83ce-c23131f9c016"
+    "name": "0c17afd6-ef2f-46df-83ce-c23131f9c016",
+    "targetPlaybook": "סוכן נדלן"
   }, {
     "intent": "confusion",
     "triggerFulfillment": {
@@ -150,9 +177,13 @@
       }, {
         "parameter": "needs_reintroduction",
         "value": true
+      }, {
+        "parameter": "triggered_intent",
+        "value": "confusion"
       } ]
     },
-    "name": "2e5b2704-aece-4fb6-ae52-da3fefa22eae"
+    "name": "2e5b2704-aece-4fb6-ae52-da3fefa22eae",
+    "targetPlaybook": "סוכן נדלן"
   }, {
     "intent": "request_specs",
     "triggerFulfillment": {
@@ -168,9 +199,13 @@
       }, {
         "parameter": "detail_oriented",
         "value": true
+      }, {
+        "parameter": "triggered_intent",
+        "value": "request_specs"
       } ]
     },
-    "name": "fa22e242-5c63-4cce-9ea3-4e5421d1e180"
+    "name": "fa22e242-5c63-4cce-9ea3-4e5421d1e180",
+    "targetPlaybook": "סוכן נדלן"
   }, {
     "intent": "timing_question",
     "triggerFulfillment": {
@@ -186,9 +221,13 @@
       }, {
         "parameter": "timing_important",
         "value": true
+      }, {
+        "parameter": "triggered_intent",
+        "value": "timing_question"
       } ]
     },
-    "name": "d188e8d9-296c-40c5-b700-f68caa7a5a9c"
+    "name": "d188e8d9-296c-40c5-b700-f68caa7a5a9c",
+    "targetPlaybook": "סוכן נדלן"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
