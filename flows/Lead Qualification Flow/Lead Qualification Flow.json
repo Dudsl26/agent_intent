@@ -6,6 +6,9 @@
     "intent": "interested",
     "triggerFulfillment": {
       "messages": [ {
+        "playbook": {
+          "displayName": "סוכן נדלן"
+        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -19,11 +22,16 @@
         "value": "interested"
       } ]
     },
-    "name": "2249a6ba-560b-468d-aa62-1a1048f70026",
-    "targetPlaybook": "סוכן נדלן"
+    "name": "2249a6ba-560b-468d-aa62-1a1048f70026"
   }, {
     "intent": "request_price",
     "triggerFulfillment": {
+      "messages": [ {
+        "playbook": {
+          "displayName": "סוכן נדלן"
+        },
+        "languageCode": "he-il"
+      } ],
       "setParameterActions": [ {
         "parameter": "interest_level",
         "value": "medium"
@@ -38,12 +46,14 @@
         "value": "request_price"
       } ]
     },
-    "name": "8c8d14ea-26a9-44cc-96ce-c67c7ec8f0d6",
-    "targetPlaybook": "סוכן נדלן"
+    "name": "8c8d14ea-26a9-44cc-96ce-c67c7ec8f0d6"
   }, {
     "intent": "request_details",
     "triggerFulfillment": {
       "messages": [ {
+        "playbook": {
+          "displayName": "סוכן נדלן"
+        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -60,12 +70,14 @@
         "value": "request_details"
       } ]
     },
-    "name": "25d213b4-0a53-4c4a-953b-d8ab672c9f05",
-    "targetPlaybook": "סוכן נדלן"
+    "name": "25d213b4-0a53-4c4a-953b-d8ab672c9f05"
   }, {
     "intent": "request_location",
     "triggerFulfillment": {
       "messages": [ {
+        "playbook": {
+          "displayName": "סוכן נדלן"
+        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -82,8 +94,7 @@
         "value": "request_location"
       } ]
     },
-    "name": "92067196-59bb-4bb8-bba3-94fd79fe1ebb",
-    "targetPlaybook": "סוכן נדלן"
+    "name": "92067196-59bb-4bb8-bba3-94fd79fe1ebb"
   }, {
     "intent": "not_interested",
     "triggerFulfillment": {
@@ -107,8 +118,7 @@
         "value": "not_interested"
       } ]
     },
-    "name": "26da1e75-2f06-41a2-b034-b82664186b9f",
-    "targetPlaybook": "סוכן נדלן"
+    "name": "26da1e75-2f06-41a2-b034-b82664186b9f"
   }, {
     "intent": "not_now",
     "triggerFulfillment": {
@@ -132,8 +142,7 @@
         "value": "not_now"
       } ]
     },
-    "name": "c3c46361-735b-4d39-9e36-63673060799b",
-    "targetPlaybook": "סוכן נדלן"
+    "name": "c3c46361-735b-4d39-9e36-63673060799b"
   }, {
     "intent": "already_purchased",
     "triggerFulfillment": {
@@ -160,12 +169,14 @@
         "value": "already_purchased"
       } ]
     },
-    "name": "0c17afd6-ef2f-46df-83ce-c23131f9c016",
-    "targetPlaybook": "סוכן נדלן"
+    "name": "0c17afd6-ef2f-46df-83ce-c23131f9c016"
   }, {
     "intent": "confusion",
     "triggerFulfillment": {
       "messages": [ {
+        "playbook": {
+          "displayName": "סוכן נדלן"
+        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -182,12 +193,14 @@
         "value": "confusion"
       } ]
     },
-    "name": "2e5b2704-aece-4fb6-ae52-da3fefa22eae",
-    "targetPlaybook": "סוכן נדלן"
+    "name": "2e5b2704-aece-4fb6-ae52-da3fefa22eae"
   }, {
     "intent": "request_specs",
     "triggerFulfillment": {
       "messages": [ {
+        "playbook": {
+          "displayName": "סוכן נדלן"
+        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -204,12 +217,14 @@
         "value": "request_specs"
       } ]
     },
-    "name": "fa22e242-5c63-4cce-9ea3-4e5421d1e180",
-    "targetPlaybook": "סוכן נדלן"
+    "name": "fa22e242-5c63-4cce-9ea3-4e5421d1e180"
   }, {
     "intent": "timing_question",
     "triggerFulfillment": {
       "messages": [ {
+        "playbook": {
+          "displayName": "סוכן נדלן"
+        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -226,8 +241,7 @@
         "value": "timing_question"
       } ]
     },
-    "name": "d188e8d9-296c-40c5-b700-f68caa7a5a9c",
-    "targetPlaybook": "סוכן נדלן"
+    "name": "d188e8d9-296c-40c5-b700-f68caa7a5a9c"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
