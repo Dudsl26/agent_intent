@@ -1,30 +1,5 @@
 {
   "name": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
   "displayName": "city",
-  "kind": "KIND_MAP",
-  "entities": [
-    {
-      "value": "רעננה",
-      "synonyms": ["רעננה", "raanana", "Ra'anana"]
-    },
-    {
-      "value": "כפר סבא",
-      "synonyms": ["כפר סבא", "kfar saba", "Kfar Saba"]
-    },
-    {
-      "value": "הוד השרון",
-      "synonyms": ["הוד השרון", "hod hasharon", "Hod HaSharon"]
-    },
-    {
-      "value": "הרצליה",
-      "synonyms": ["הרצליה", "herzliya", "Herzliya"]
-    },
-    {
-      "value": "תל אביב",
-      "synonyms": ["תל אביב", "tel aviv", "Tel Aviv"]
-    }
-  ],
-  "excludedPhrases": [],
-  "enableFuzzyExtraction": false,
-  "redact": false
+  "kind": "KIND_MAP"
 }

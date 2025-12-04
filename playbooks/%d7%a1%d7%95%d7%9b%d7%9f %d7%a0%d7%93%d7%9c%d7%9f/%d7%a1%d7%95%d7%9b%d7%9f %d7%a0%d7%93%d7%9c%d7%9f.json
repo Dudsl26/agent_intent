@@ -1,0 +1,15 @@
+{
+  "name": "cdd86e36-315c-4c46-b5a7-31a9168fae68",
+  "displayName": "סוכן נדלן",
+  "goal": "אתה סוכן נדלן",
+  "tokenCount": 32,
+  "instruction": {
+    "steps": [ {
+      "text": "תמשיך את השיחה ותצי לפגישה בהתאם אם הלקוח מעוניין"
+    } ]
+  },
+  "playbookType": "ROUTINE",
+  "codeBlock": {
+  
+  }
+}

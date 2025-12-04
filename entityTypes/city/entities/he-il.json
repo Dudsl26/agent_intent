@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "רעננה",
+    "synonyms": [ "רעננה", "raanana", "Ra'anana" ],
+    "languageCode": "he-il"
+  }, {
+    "value": "כפר סבא",
+    "synonyms": [ "כפר סבא", "kfar saba", "Kfar Saba" ],
+    "languageCode": "he-il"
+  }, {
+    "value": "הוד השרון",
+    "synonyms": [ "הוד השרון", "hod hasharon", "Hod HaSharon" ],
+    "languageCode": "he-il"
+  }, {
+    "value": "הרצליה",
+    "synonyms": [ "הרצליה", "herzliya", "Herzliya" ],
+    "languageCode": "he-il"
+  }, {
+    "value": "תל אביב",
+    "synonyms": [ "תל אביב", "tel aviv", "Tel Aviv" ],
+    "languageCode": "he-il"
+  } ]
+}

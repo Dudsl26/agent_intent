@@ -2,318 +2,224 @@
   "name": "11111111-1111-1111-1111-111111111111",
   "displayName": "Lead Qualification Flow",
   "description": "Initial conversation flow for qualifying real estate leads in Hebrew",
-  "transitionRoutes": [
-    {
-      "intent": "interested",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "playbook": {
-              "displayName": "Keidar Real Estate Assistant"
-            },
-            "languageCode": "he-il"
-          }
-        ],
-        "setParameterActions": [
-          {
-            "parameter": "interest_level",
-            "value": "high"
-          },
-          {
-            "parameter": "initial_response",
-            "value": "interested"
-          }
-        ]
-      }
+  "transitionRoutes": [ {
+    "intent": "interested",
+    "triggerFulfillment": {
+      "messages": [ {
+        "languageCode": "he-il"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "interest_level",
+        "value": "high"
+      }, {
+        "parameter": "initial_response",
+        "value": "interested"
+      } ]
     },
-    {
-      "intent": "request_price",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "playbook": {
-              "displayName": "Keidar Real Estate Assistant"
-            },
-            "languageCode": "he-il"
-          }
-        ],
-        "setParameterActions": [
-          {
-            "parameter": "interest_level",
-            "value": "medium"
-          },
-          {
-            "parameter": "initial_question",
-            "value": "price"
-          },
-          {
-            "parameter": "price_sensitivity",
-            "value": true
-          }
-        ]
-      }
+    "name": "2249a6ba-560b-468d-aa62-1a1048f70026"
+  }, {
+    "intent": "request_price",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "interest_level",
+        "value": "medium"
+      }, {
+        "parameter": "initial_question",
+        "value": "price"
+      }, {
+        "parameter": "price_sensitivity",
+        "value": true
+      } ]
     },
-    {
-      "intent": "request_details",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "playbook": {
-              "displayName": "Keidar Real Estate Assistant"
-            },
-            "languageCode": "he-il"
-          }
-        ],
-        "setParameterActions": [
-          {
-            "parameter": "interest_level",
-            "value": "medium-high"
-          },
-          {
-            "parameter": "initial_question",
-            "value": "details"
-          },
-          {
-            "parameter": "detail_oriented",
-            "value": true
-          }
-        ]
-      }
+    "name": "8c8d14ea-26a9-44cc-96ce-c67c7ec8f0d6",
+    "targetPlaybook": "סוכן נדלן"
+  }, {
+    "intent": "request_details",
+    "triggerFulfillment": {
+      "messages": [ {
+        "languageCode": "he-il"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "interest_level",
+        "value": "medium-high"
+      }, {
+        "parameter": "initial_question",
+        "value": "details"
+      }, {
+        "parameter": "detail_oriented",
+        "value": true
+      } ]
     },
-    {
-      "intent": "request_location",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "playbook": {
-              "displayName": "Keidar Real Estate Assistant"
-            },
-            "languageCode": "he-il"
-          }
-        ],
-        "setParameterActions": [
-          {
-            "parameter": "interest_level",
-            "value": "medium"
-          },
-          {
-            "parameter": "initial_question",
-            "value": "location"
-          },
-          {
-            "parameter": "location_important",
-            "value": true
-          }
-        ]
-      }
+    "name": "25d213b4-0a53-4c4a-953b-d8ab672c9f05"
+  }, {
+    "intent": "request_location",
+    "triggerFulfillment": {
+      "messages": [ {
+        "languageCode": "he-il"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "interest_level",
+        "value": "medium"
+      }, {
+        "parameter": "initial_question",
+        "value": "location"
+      }, {
+        "parameter": "location_important",
+        "value": true
+      } ]
     },
-    {
-      "intent": "not_interested",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "text": {
-              "text": [
-                "אין בעיה, מובן לגמרי!\n\nאשמח שתשמור את הפרטים שלי למקרה שתתעניין בעתיד.\nיש המון דברים שמשתנים בשוק ואולי נתאים לך בהמשך.\n\nבהצלחה במציאת הבית המושלם!"
-              ]
-            },
-            "languageCode": "he-il"
-          }
-        ],
-        "setParameterActions": [
-          {
-            "parameter": "interest_level",
-            "value": "none"
-          },
-          {
-            "parameter": "initial_response",
-            "value": "not_interested"
-          },
-          {
-            "parameter": "lead_status",
-            "value": "cold"
-          }
-        ]
-      }
+    "name": "92067196-59bb-4bb8-bba3-94fd79fe1ebb"
+  }, {
+    "intent": "not_interested",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "אין בעיה, מובן לגמרי!\n\nאשמח שתשמור את הפרטים שלי למקרה שתתעניין בעתיד.\nיש המון דברים שמשתנים בשוק ואולי נתאים לך בהמשך.\n\nבהצלחה במציאת הבית המושלם!" ]
+        },
+        "languageCode": "he-il"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "interest_level",
+        "value": "none"
+      }, {
+        "parameter": "initial_response",
+        "value": "not_interested"
+      }, {
+        "parameter": "lead_status",
+        "value": "cold"
+      } ]
     },
-    {
-      "intent": "not_now",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "text": {
-              "text": [
-                "מובן לגמרי!\n\nקנייה זה החלטה חשובה ולוקחת זמן.\n\nאשאיר את הפרטים שלך ואצור קשר בעוד כמה שבועות/חודשים לראות מה המצב.\n\nמתי בערך כדאי שאחזור אליך?"
-              ]
-            },
-            "languageCode": "he-il"
-          }
-        ],
-        "setParameterActions": [
-          {
-            "parameter": "interest_level",
-            "value": "low"
-          },
-          {
-            "parameter": "initial_response",
-            "value": "not_now"
-          },
-          {
-            "parameter": "follow_up_needed",
-            "value": true
-          }
-        ]
-      }
+    "name": "26da1e75-2f06-41a2-b034-b82664186b9f"
+  }, {
+    "intent": "not_now",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "מובן לגמרי!\n\nקנייה זה החלטה חשובה ולוקחת זמן.\n\nאשאיר את הפרטים שלך ואצור קשר בעוד כמה שבועות/חודשים לראות מה המצב.\n\nמתי בערך כדאי שאחזור אליך?" ]
+        },
+        "languageCode": "he-il"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "interest_level",
+        "value": "low"
+      }, {
+        "parameter": "initial_response",
+        "value": "not_now"
+      }, {
+        "parameter": "follow_up_needed",
+        "value": true
+      } ]
     },
-    {
-      "intent": "already_purchased",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "text": {
-              "text": [
-                "מזל טוב על הבית החדש!\n\nשמח לשמוע! איפה קניתם בסוף?\n\nאם תכירו מישהו שמחפש דירה - אשמח אם תעבירו אותי הלאה.\n\nבהצלחה עם המעבר!"
-              ]
-            },
-            "languageCode": "he-il"
-          }
-        ],
-        "setParameterActions": [
-          {
-            "parameter": "interest_level",
-            "value": "none"
-          },
-          {
-            "parameter": "initial_response",
-            "value": "already_purchased"
-          },
-          {
-            "parameter": "lead_status",
-            "value": "converted_elsewhere"
-          },
-          {
-            "parameter": "potential_referral",
-            "value": true
-          }
-        ]
-      }
+    "name": "c3c46361-735b-4d39-9e36-63673060799b"
+  }, {
+    "intent": "already_purchased",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "מזל טוב על הבית החדש!\n\nשמח לשמוע! איפה קניתם בסוף?\n\nאם תכירו מישהו שמחפש דירה - אשמח אם תעבירו אותי הלאה.\n\nבהצלחה עם המעבר!" ]
+        },
+        "languageCode": "he-il"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "interest_level",
+        "value": "none"
+      }, {
+        "parameter": "initial_response",
+        "value": "already_purchased"
+      }, {
+        "parameter": "lead_status",
+        "value": "converted_elsewhere"
+      }, {
+        "parameter": "potential_referral",
+        "value": true
+      } ]
     },
-    {
-      "intent": "confusion",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "playbook": {
-              "displayName": "Keidar Real Estate Assistant"
-            },
-            "languageCode": "he-il"
-          }
-        ],
-        "setParameterActions": [
-          {
-            "parameter": "interest_level",
-            "value": "unknown"
-          },
-          {
-            "parameter": "initial_response",
-            "value": "confusion"
-          },
-          {
-            "parameter": "needs_reintroduction",
-            "value": true
-          }
-        ]
-      }
+    "name": "0c17afd6-ef2f-46df-83ce-c23131f9c016"
+  }, {
+    "intent": "confusion",
+    "triggerFulfillment": {
+      "messages": [ {
+        "languageCode": "he-il"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "interest_level",
+        "value": "unknown"
+      }, {
+        "parameter": "initial_response",
+        "value": "confusion"
+      }, {
+        "parameter": "needs_reintroduction",
+        "value": true
+      } ]
     },
-    {
-      "intent": "request_specs",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "playbook": {
-              "displayName": "Keidar Real Estate Assistant"
-            },
-            "languageCode": "he-il"
-          }
-        ],
-        "setParameterActions": [
-          {
-            "parameter": "interest_level",
-            "value": "high"
-          },
-          {
-            "parameter": "initial_question",
-            "value": "specs"
-          },
-          {
-            "parameter": "detail_oriented",
-            "value": true
-          }
-        ]
-      }
+    "name": "2e5b2704-aece-4fb6-ae52-da3fefa22eae"
+  }, {
+    "intent": "request_specs",
+    "triggerFulfillment": {
+      "messages": [ {
+        "languageCode": "he-il"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "interest_level",
+        "value": "high"
+      }, {
+        "parameter": "initial_question",
+        "value": "specs"
+      }, {
+        "parameter": "detail_oriented",
+        "value": true
+      } ]
     },
-    {
-      "intent": "timing_question",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "playbook": {
-              "displayName": "Keidar Real Estate Assistant"
-            },
-            "languageCode": "he-il"
-          }
-        ],
-        "setParameterActions": [
-          {
-            "parameter": "interest_level",
-            "value": "medium-high"
-          },
-          {
-            "parameter": "initial_question",
-            "value": "timing"
-          },
-          {
-            "parameter": "timing_important",
-            "value": true
-          }
-        ]
-      }
-    }
-  ],
-  "eventHandlers": [
-    {
-      "event": "sys.no-match-default",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "text": {
-              "text": [
-                "היי!\n\nאני כאן כדי לעזור לך עם הפרויקט שלנו ב[מיקום].\n\nלא הצלחתי להבין בדיוק מה חיפשת - תוכל לנסח שוב?\n\nאו אולי תעדיף שפשוט אספר לך בקצרה על הפרויקט?"
-              ]
-            },
-            "languageCode": "he-il"
-          }
-        ]
-      }
+    "name": "fa22e242-5c63-4cce-9ea3-4e5421d1e180"
+  }, {
+    "intent": "timing_question",
+    "triggerFulfillment": {
+      "messages": [ {
+        "languageCode": "he-il"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "interest_level",
+        "value": "medium-high"
+      }, {
+        "parameter": "initial_question",
+        "value": "timing"
+      }, {
+        "parameter": "timing_important",
+        "value": true
+      } ]
     },
-    {
-      "event": "sys.no-input-default",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "text": {
-              "text": [
-                "אני כאן!\n\nאם תרצה לשמוע על הפרויקט או לשאול משהו - אני זמין."
-              ]
-            },
-            "languageCode": "he-il"
-          }
-        ]
-      }
-    }
-  ],
+    "name": "d188e8d9-296c-40c5-b700-f68caa7a5a9c"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "היי!\n\nאני כאן כדי לעזור לך עם הפרויקט שלנו ב[מיקום].\n\nלא הצלחתי להבין בדיוק מה חיפשת - תוכל לנסח שוב?\n\nאו אולי תעדיף שפשוט אספר לך בקצרה על הפרויקט?" ]
+        },
+        "languageCode": "he-il"
+      } ]
+    },
+    "name": "fc3cf12c-7c35-40cf-a52c-3e793419d714"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "אני כאן!\n\nאם תרצה לשמוע על הפרויקט או לשאול משהו - אני זמין." ]
+        },
+        "languageCode": "he-il"
+      } ]
+    },
+    "name": "315a3c0c-5553-4cbd-a519-9faa99211461"
+  } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001
-  }
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "languageCode": "he-il"
+  } ]
 }
