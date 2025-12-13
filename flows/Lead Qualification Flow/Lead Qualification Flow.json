@@ -6,9 +6,6 @@
     "intent": "interested",
     "triggerFulfillment": {
       "messages": [ {
-        "playbook": {
-          "displayName": "סוכן נדלן"
-        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -27,9 +24,6 @@
     "intent": "request_price",
     "triggerFulfillment": {
       "messages": [ {
-        "playbook": {
-          "displayName": "סוכן נדלן"
-        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -51,9 +45,6 @@
     "intent": "request_details",
     "triggerFulfillment": {
       "messages": [ {
-        "playbook": {
-          "displayName": "סוכן נדלן"
-        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -75,9 +66,6 @@
     "intent": "request_location",
     "triggerFulfillment": {
       "messages": [ {
-        "playbook": {
-          "displayName": "סוכן נדלן"
-        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -174,9 +162,6 @@
     "intent": "confusion",
     "triggerFulfillment": {
       "messages": [ {
-        "playbook": {
-          "displayName": "סוכן נדלן"
-        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -198,9 +183,6 @@
     "intent": "request_specs",
     "triggerFulfillment": {
       "messages": [ {
-        "playbook": {
-          "displayName": "סוכן נדלן"
-        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {
@@ -222,9 +204,6 @@
     "intent": "timing_question",
     "triggerFulfillment": {
       "messages": [ {
-        "playbook": {
-          "displayName": "סוכן נדלן"
-        },
         "languageCode": "he-il"
       } ],
       "setParameterActions": [ {

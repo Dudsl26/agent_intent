@@ -1,5 +1,5 @@
 {
-  "displayName": "test_intent_playbbok_2",
+  "displayName": "test_for_intents",
   "defaultLanguageCode": "he-il",
   "timeZone": "Asia/Yekaterinburg",
   "projectNumber": 939932743275,
@@ -8,5 +8,11 @@
     "loggingSettings": {
     
     }
+  },
+  "answerFeedbackSettings": {
+  
+  },
+  "webClientSettings": {
+    "boxBorderRadius": "0"
   }
 }
