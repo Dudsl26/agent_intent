@@ -3,6 +3,21 @@
   "displayName": "Default Start Flow",
   "description": "Initial conversation flow for qualifying real estate leads in Hebrew",
   "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "playbook": {
+          "displayName": "סוכן נדלן"
+        },
+        "languageCode": "he-il"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "lead_status",
+        "value": "new"
+      } ]
+    },
+    "name": "00000000-0000-0000-0001-000000000001"
+  }, {
     "intent": "interested",
     "triggerFulfillment": {
       "messages": [ {
